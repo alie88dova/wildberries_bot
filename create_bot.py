@@ -7,7 +7,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 #memory storage for use states group
 storage = MemoryStorage()
 
-bot = Bot(token="")
+bot = Bot(token="TOKEN")
 
 dp = Dispatcher(bot, storage=storage)
 
