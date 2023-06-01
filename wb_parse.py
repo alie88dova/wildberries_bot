@@ -5,6 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 import random
 
+#Это тестовый файл
 
 driver = webdriver.Chrome()
 driver.set_window_size(1920, 1080)
