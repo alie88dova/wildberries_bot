@@ -5,6 +5,9 @@ import asyncio
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 
+user.register_handlers_user(dp)
+
+
 async def on_startup(_):
     print('Бот онлайн')
 
