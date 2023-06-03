@@ -152,10 +152,6 @@ class Card(object):
                 print(e)
 
 
-
-
-
-
 if __name__ == "__main__":
     #print(find_position_by_article(, "Газировка"))
     card = Card("K-girl", 122997863 )
